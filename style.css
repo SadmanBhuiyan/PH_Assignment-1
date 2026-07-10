@@ -1,0 +1,50 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    color: #575757;
+    font-family: "Inter", sans-serif;
+}
+
+
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 3rem;
+    padding: 1rem 7rem;
+}
+
+.nav-logo-div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5px;
+}
+
+#nav-logo-name {
+    font-family: "Arimo", sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.nav-links-container ul {
+    list-style: none;
+    font-size: 16px;
+    display: flex;
+    justify-content: space-between;
+    gap: 0.75rem;
+}
+
+.common-btn {
+    background-color: #1D4ED8;
+    color: white;
+    border-radius: 10px;
+    border: none;
+}
+
+#nav-regi-btn {
+    min-width: 150px;
+    padding: 1rem 2rem;
+}
