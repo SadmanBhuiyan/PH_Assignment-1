@@ -31,6 +31,11 @@ nav {
     border: none;
 }
 
+.common-btn:hover {
+    cursor: pointer;
+    background-color: #2b4b6e;
+}
+
 #nav-regi-btn {
     min-width: 150px;
     padding: 1rem 2rem;
@@ -115,3 +120,116 @@ nav {
     font-size: 14px;
 }
 
+/* Secure spot section */
+
+#card-section {
+    text-align: center;
+    margin: 3rem 0rem;
+}
+
+#card-sec-heading {
+    color: black;
+    text-align: center;
+    font-size: 56px;
+    padding: 1rem 0rem;
+}
+
+#card-container {
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 3rem 17rem;
+}
+
+.cards {
+    /* width: 300px; */
+    /* height: 400px; */
+    padding: 32px;
+    border: 1px solid gray;
+    border-radius: 12px;
+    color: #E5E7EB;
+}
+
+.common-txt {
+    font-size: 13px;
+    font-weight: 600;
+    color: #888888;
+}
+
+
+.secendary-txt {
+    font-size: 13px;
+}
+
+.price {
+    color: black;
+    font-weight: bold;
+    font-size: 44px;
+}
+
+.divider {
+    width: 250px;
+    height: 1px;
+    background-color: #E5E7EB;
+}
+
+.card-info {
+    padding-bottom: 1rem;
+}
+
+.cards ul {
+    padding: 1rem 0rem;
+    
+}
+
+.cards ul li {
+    padding: 5px 0px;
+    font-size: 14px;
+    color: #333333;
+}
+
+.cards ul li::marker {
+    color: #60A5FA;
+}
+
+#card-container button {
+    display: block;
+    width: 250px;
+    margin: 0px auto;
+    margin-top: 1rem;
+    padding: 1rem 2rem;
+    font-size: 14px;
+}
+
+.inverted-btn {
+    border:solid #2563EB;
+    color: #2563EB;
+    background-color: white;
+}
+
+.inverted-btn:hover {
+    background-color: #0D1B2A;
+}
+
+#pro {
+    background-color: #0D1B2A;
+}
+
+#pro .price,
+#pro ul li {
+    color: white;
+    
+}
+
+#pro .common-txt {
+    color: #93C5FD;
+}
+
+#pro .secendary-txt {
+    color: #a7a6a6;
+}
+
+#team {
+    background-color: #F8F9FB;
+}
