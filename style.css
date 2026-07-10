@@ -6,7 +6,7 @@
     font-family: "Inter", sans-serif;
 }
 
-
+/* Navigation bar */
 
 nav {
     display: flex;
@@ -16,25 +16,12 @@ nav {
     padding: 1rem 7rem;
 }
 
-.nav-logo-div {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 5px;
-}
-
-#nav-logo-name {
-    font-family: "Arimo", sans-serif;
-    font-size: 20px;
-    font-weight: bold;
-}
-
 .nav-links-container ul {
     list-style: none;
     font-size: 16px;
     display: flex;
     justify-content: space-between;
-    gap: 0.75rem;
+    gap: 1rem;
 }
 
 .common-btn {
@@ -48,3 +35,39 @@ nav {
     min-width: 150px;
     padding: 1rem 2rem;
 }
+
+/* Banner section  */
+
+.banner-container {
+    background-image: url(./assets/banner.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 100vh;
+    text-align: center;
+}
+
+.banner-div h1{
+    font-size: 80px;
+    padding: 7rem ;
+    padding-bottom: 1rem;
+}
+
+.banner-div p {
+    font-size: 23px;
+}
+
+.banner-div button {
+    width: 180px;
+    padding: 1rem 2rem;
+    margin-top: 17rem;
+    font-size: 17px;
+}
+
+.banner-text {
+    color: white;
+}
+
+
+
+
